@@ -1,8 +1,8 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  replicas: 2
   name: will-playground
-  # name: grade1-api
   namespace: dev
   labels:
     app: grade1
