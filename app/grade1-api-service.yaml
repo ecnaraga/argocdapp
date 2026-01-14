@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: will-playground
   # name: grade1-api
-  namespace: grade2
+  namespace: dev
 spec:
   type: NodePort
   selector:

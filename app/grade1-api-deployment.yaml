@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: will-playground
   # name: grade1-api
-  namespace: grade2
+  namespace: dev
   labels:
     app: grade1
 spec:
