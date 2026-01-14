@@ -10,13 +10,13 @@ spec:
   selector:
     matchLabels:
       app: grade1
-    template:
-      metadata:
-        labels:
-          app: grade1
-      spec:
-        containers:
-        - name: grade1-api
-          image: wil42/playground:v1
-          ports:
-            - containerPort: 8888
+  template:
+    metadata:
+      labels:
+        app: grade1
+    spec:
+      containers:
+      - name: grade1-api
+        image: wil42/playground:v1
+        ports:
+          - containerPort: 8888
