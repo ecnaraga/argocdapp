@@ -1,4 +1,4 @@
-apiVersion: apps/v2
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: will-playground
@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: grade1-api
-        image: wil42/playground:v2
+        image: wil42/playground:v1
         ports:
           - containerPort: 8888
