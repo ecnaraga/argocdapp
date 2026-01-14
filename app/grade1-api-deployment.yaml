@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: grade1-api
   namespace: grade2
-  labels: grade-submission
+  labels: grade1
 spec:
 replicas: 2
 selector:
