@@ -18,4 +18,4 @@ selector:
       - name: grade1-api
         image: wil42/playground:v1
         ports:
-          - containerPort: 8888
+          -containerPort: 8888
