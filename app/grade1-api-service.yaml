@@ -3,13 +3,12 @@ kind: Service
 metadata:
   name: will-playground
   namespace: dev
-  annotations:
-    argocd.argoproj.io/sync-options: "Validate=false"
 spec:
-  type: NodePort
+  type: LoadBalancer
+  # type: NodePort
   selector:
     app: myapp
   ports:
   - port: 8080
     targetPort: 8888
-    nodePort: 31001
+    # nodePort: 31001
