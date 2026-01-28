@@ -7,7 +7,7 @@ spec:
   type: LoadBalancer
   # type: NodePort
   selector:
-    app: myapp
+    app: myapp2
   ports:
   - port: 8888
     targetPort: 8888
