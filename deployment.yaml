@@ -4,16 +4,16 @@ metadata:
   name: will-playground
   namespace: dev
   labels:
-    app: myapp2
+    app: myapp
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: myapp2
+      app: myapp
   template:
     metadata:
       labels:
-        app: myapp2
+        app: myapp
     spec:
       containers:
       - name: grade1-api
